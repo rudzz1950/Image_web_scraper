@@ -1,0 +1,18 @@
+pip install -r requirements.txt
+
+=======================================================
+
+python scraper.py {keyword} -c 50{number of images requirements} -d T:/scraper/downloads -t 50
+
+
+
+-c  = count
+-d = directory to save the images
+-t = threads
+
+examples : 
+
+python scraper.py auto-rickshaw -c 200 -d T:/img/d -t 50
+python scraper.py auto-rickshaw -c 600 -d C:/Users/ANIRUDH/Documents/D -t 50
+python scraper.py bear-breeches-leaves -c 600 -d C:/Users/ANIRUDH/Documents/D -t 50
+python scraper.py Peppermint-leaves -c 500 -d C:\Users\ANIRUDH\Documents\x -t 50
